@@ -53,8 +53,8 @@
                                 <td><?php echo $row["kategori"]?></th>
                                 <td><?php echo $row["sks"]?></th>
                                 <td>
-                                <a href="edit_mk2.php?kodemk=<?php echo $row["kodemk"]?>" class="btn btn-info"> Input Data</a>
-                                <a href="hapus_mk2.php" class="btn btn-danger"> Input Data</a>
+                                <a href="edit.php?kodemk=<?php echo $row["kodemk"]?>" class="btn btn-info"> Input Data</a>
+                                <a href="hapus.php" class="btn btn-danger"> Input Data</a>
                                 </td>
                             </tr>
                         <?php
